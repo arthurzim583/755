@@ -1,20 +1,20 @@
 body {
 
-  background-color: #03f8ecee;
+  background-color: #424242ee;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
 
 }
 
 form{
 
   width: 400px;
-  background-color: #ee0505ee;
+  background-color: #252525ee;
   padding: 20px;
 
   margin: 50px auto;
-  border: 1px solid #2887f3ee;
+  border: 1px solid #121312;
   border-radius: 10px;
+  font-style: oblique;
 
 }
 
