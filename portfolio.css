@@ -49,7 +49,7 @@ font-size: 26px;
 
 .logo span{
 
-color: #7c5cff;
+color: #ff0000;
 
 
 
@@ -71,7 +71,7 @@ transition: 0.3s;
 
 nav a:hover{
 
-   color: #7c5cff
+   color: #ff0000
 
 }
 
@@ -143,7 +143,7 @@ margin-bottom: 35px;
 .botao{
 
 display: inline-block;
-background-color: #7c5cff;
+background-color: #ff0000;
 color: #ffffff;
 padding: 13px 25px;
 border-radius: 8px;
@@ -154,7 +154,7 @@ transition: 0.3s;
 
 .botao:hover{
 
-background-color: #7c5cff;
+background-color: #59585e;
 transform: translateY(-3px);
 
 
@@ -162,17 +162,17 @@ transform: translateY(-3px);
 
 .botao-secundario{
 
-background-color:#7c5cff;
-border: 1px solid #7c5cff;
-color: #7c5cff;
+background-color:#d80404;
+border: 1px solid #ff5c5c;
+color: #fcfcfc;
 
 
 }
 
 .botao-secundario:hover{
 
-background-color: #7c5cff;
-color:#ffffff
+background-color: #797979;
+color: #fdfcfd;
 
 
 
@@ -194,7 +194,7 @@ margin-bottom: 50px;
 
 .titulo-secao p{
 
-color:#7c5cff;
+color:#fc0c04;
 font-size: 14px;
 font-weight: bold;
 text-transform: uppercase;
@@ -244,7 +244,7 @@ gap: 15px;
 background-color: #1d1d27;
 padding: 20px;
 border-radius: 8px;
-border-left: 4px solid #7c5cff;
+border-left: 4px solid #f10d06;
 }
 
 .habilidade h3 {
@@ -292,13 +292,13 @@ gap: 25px
 .card:hover{
 
 transform: translateY(-8px);
-border-color: #7c5cff;
+border-color: #f80505;
 
 }
 
 .numero-projeto {
 
-color:#7c5cff;
+color:#f70c04;
 font-size: 14px;
 font-weight: bold;
 margin-bottom: 20px;
@@ -328,7 +328,7 @@ margin-bottom: 25px;
 
 .card > a {
 
-color:#7c5cff;
+color:#f81e01;
 font-weight: bold;
 
 
