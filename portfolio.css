@@ -487,7 +487,36 @@ footer {
 
    /*projetos*/
 
+   .projetos{
+
+    flex-direction: column;
    
+   }
+
+   .botoes{
+
+   flex-direction: column;
+   align-items: flex-start;
+   }
+   
+   /*contato*/
+   
+   .contato-links{
+
+    flex-wrap: wrap;
+   
+   }
+
+   footer{
+
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+
+
+
+   }
+
 
 
 
