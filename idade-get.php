@@ -36,7 +36,7 @@ if ($idade >= 18) {
 
     <h1>cadastro</h1>
 
-    <form method="POST">
+    <form method="GET">
         <label>Nome:</label>
         <input type="text" class="Nome" id="nome" name="nome">
 
