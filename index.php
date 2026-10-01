@@ -111,13 +111,13 @@
                         <span>CSS</span>
                         <!--span>PHP</span-->
                     </div>
-                    <a href="projetos.html">Ver projeto</a>
+                    <a href="idade-get.php">Ver projeto</a>
                 </div>
 
                 <!--projeto3 -->
                 <div class="card">
                     <div class="numero-projeto">
-                        01
+                        02
                     </div>
                     <h3>Digitar seu nome e idade</h3>
 
@@ -131,9 +131,12 @@
                         <span>CSS</span>
                         <!--span>PHP</span-->
                     </div>
-                    <a href="projetos.thml">Ver projeto</a>
+                    <a href="idade-get.php">Ver projeto</a>
                 </div>
             </div>
+
+        
+
         </section>
 
         <!--Seção Contato-->
