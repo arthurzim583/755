@@ -1,7 +1,7 @@
 <?php
 
-$nome = $_GET["nome"];
-$idade = $_GET["idade"];
+$nome = $_POST["nome"];
+$idade = $_POST["idade"];
 
 $resultado = "";
 
@@ -36,7 +36,7 @@ if ($idade >= 18) {
 
     <h1>cadastro</h1>
 
-    <form method="GET">
+    <form method="POST">
         <label>Nome:</label>
         <input type="text" class="Nome" id="nome" name="nome">
 

@@ -111,7 +111,7 @@
                         <span>CSS</span>
                         <!--span>PHP</span-->
                     </div>
-                    <a href="idade-get.php">Ver projeto</a>
+                    <a href="projetos.html">Ver projeto</a>
                 </div>
 
                 <!--projeto3 -->
@@ -131,7 +131,7 @@
                         <span>CSS</span>
                         <!--span>PHP</span-->
                     </div>
-                    <a href="idade-get.php">Ver projeto</a>
+                    <a href="projetos.thml">Ver projeto</a>
                 </div>
             </div>
         </section>
