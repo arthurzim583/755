@@ -119,7 +119,7 @@
                     <div class="numero-projeto">
                         02
                     </div>
-                    <h3>Digitar seu nome e idade</h3>
+                    <h3>Sistema de cadastro</h3>
 
                     <p>
                         Descrição do sistema de cadastro
