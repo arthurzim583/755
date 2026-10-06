@@ -162,7 +162,7 @@
                     <div class="numero-projeto">
                         04
                     </div>
-                    <h3>Digitar seu nome e idade</h3>
+                    <h3>Sistema de cadastro de produtos</h3>
 
                     <p>
                         Descrição do sistema de cadastro
