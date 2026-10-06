@@ -114,7 +114,7 @@
                     <a href="idade-get.php">Ver projeto</a>
                 </div>
 
-                <!--projeto3 -->
+                <!--projeto2 -->
                 <div class="card">
                     <div class="numero-projeto">
                         02
@@ -135,6 +135,47 @@
                 </div>
             </div>
 
+  <!--projeto3-->
+            <div class="card">
+                    <div class="numero-projeto">
+                        03
+                    </div>
+                    <h3>Digitar seu nome e idade</h3>
+
+                    <p>
+                        Descrição do sistema de cadastro
+
+                    </p>
+
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <!--span>PHP</span-->
+                    </div>
+                    <a href="dados-json.php">Ver projeto</a>
+                </div>
+
+
+
+                <!--projeto4-->
+                <div class="card">
+                    <div class="numero-projeto">
+                        04
+                    </div>
+                    <h3>Digitar seu nome e idade</h3>
+
+                    <p>
+                        Descrição do sistema de cadastro
+
+                    </p>
+
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <!--span>PHP</span-->
+                    </div>
+                    <a href="cadastro_de_produtos-json.php">Ver projeto</a>
+                </div>
         
 
         </section>
