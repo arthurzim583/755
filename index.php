@@ -102,7 +102,7 @@
                     <h3>Digitar seu nome e idade</h3>
 
                     <p>
-                        Descrição do sistema de cadastro
+                        Descrição do sistema:
 
                     </p>
 
@@ -122,9 +122,11 @@
                     <h3>Sistema de cadastro</h3>
 
                     <p>
-                        Descrição do sistema de cadastro
-
+                        Descrição do sistema:
                     </p>
+
+                     <p>Sistema para cadastrar idade e nome e afirmar se a pessoa é de menor ou de maior</p>
+                    
 
                     <div class="tecnologias">
                         <span>HTML</span>
@@ -143,9 +145,11 @@
                     <h3>Sistema de cadastro de notas </h3>
 
                     <p>
-                        Descrição do sistema de cadastro
-
+                        Descrição do sistema:
+                
                     </p>
+
+                    <p>sistema para cadastrar nome do aluno e 3 notas em cada matéria</p>
 
                     <div class="tecnologias">
                         <span>HTML</span>
