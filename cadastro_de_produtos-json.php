@@ -2,7 +2,6 @@
 
 //Verifica se o formulario foi enviado usando o método POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    echo "DEBUG 2";
     
     
     //recebe as informações para cadastro dos produtos
