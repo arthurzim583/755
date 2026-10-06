@@ -137,8 +137,8 @@
                 </div>
             </div>
 
-  <!--projeto3-->
-            <div class="card">
+              <!--projeto3-->
+            <div class="card3">
                     <div class="numero-projeto">
                         03
                     </div>
@@ -162,7 +162,7 @@
 
 
                 <!--projeto4-->
-                <div class="card">
+                <div class="card4">
                     <div class="numero-projeto">
                         04
                     </div>
