@@ -188,8 +188,7 @@
         <section id="contato" class="contato">
             <div class="contato-links">
                 <a href="mailto: joaoarthurbrumpontes@gmail.com">E-mail</a>
-                <a href="">github</a>
-                <a href="">Linkedin</a>
+                <a href="https://github.com/arthurzim583/755">github</a>
             </div>
         </section>
     </main>
