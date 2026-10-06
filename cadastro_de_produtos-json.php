@@ -1,6 +1,5 @@
 <?php
 
-echo "DEBUG 1";
 //Verifica se o formulario foi enviado usando o método POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "DEBUG 2";
@@ -16,7 +15,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $pais_de_origem = $_POST["pais "];
 
 
-    echo "DEBUG 2";
     //organiza os dados em um array
     $cadastro = [
         "nome do produto" => $nome_do_produto,
@@ -34,7 +32,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //SERVE PARA LER/ABRIR ARQUIVO JSON
 
-    echo "DEBUG 3";
     $conteudoJson = file_get_contents(__DIR__ . "/dados/produtos.json");
 
     //SERVE PARA CONVERTAR JSONS PARA ARRAY PHP
@@ -45,7 +42,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $produtosExixtentes[] = $cadastro;
 
-    echo "DEBUG 4";
     //CONVERTER O ARRAY PHP PARA JSON
 
     $jsonatualizado = json_encode(
@@ -59,7 +55,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 
-echo "DEBUG 5";
 //lê o arquivo JSON
 
 
@@ -69,7 +64,6 @@ $conteudoJson = file_get_contents(__DIR__ . "/dados/produtos.json");
 
 $produtosCadastrados = json_decode($conteudoJson, true);
 
-echo "DEBUG 6";
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
