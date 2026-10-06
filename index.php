@@ -140,7 +140,7 @@
                     <div class="numero-projeto">
                         03
                     </div>
-                    <h3>Digitar seu nome e idade</h3>
+                    <h3>Sistema de cadastro de notas </h3>
 
                     <p>
                         Descrição do sistema de cadastro
