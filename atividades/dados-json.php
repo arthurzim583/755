@@ -80,7 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 //lê o arquivo JSON
 
-$conteudoJson = file_get_contents(__DIR__ . "/dados/intro.json");
+$conteudoJson = file_get_contents(__DIR__ . "../dados/intro.json");
 
 //converte o JSON para ARRAY PHP
 
