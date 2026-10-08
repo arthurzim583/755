@@ -12,18 +12,33 @@
   //função 2 exibir nome
 
   function cumprimentar($nome) {
-  return "olá, " +$nome . "!";
+  return "olá, " .$nome . "!";
 
 
   }
   
   function somar($numero1, $numero2) {
-  $resultado = $numero1 + $numero2;
+  $resultado = ($numero1 + $numero2);
   return $resultado;
 
 
 
   }
+
+   function calcularMedia($nota1, $nota2){
+    $media = ($nota1 + $nota2) / 2;
+
+    return $media;
+    
+
+
+   }
+
+   function verificarstatus($media) {
+
+    //MÉDIA É 7
+
+   }
 
 
 
