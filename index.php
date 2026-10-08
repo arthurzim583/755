@@ -180,6 +180,28 @@
                     </div>
                     <a href="cadastro_de_produtos-json.php">Ver projeto</a>
                 </div>
+
+                <!--projeto4-->
+                <div class="card3">
+                    <div class="numero-projeto">
+                        03
+                    </div>
+                    <h3>Sistema de cadastro de notas </h3>
+
+                    <p>
+                        Descrição do sistema:
+                
+                    </p>
+
+                    <p>sistema para cadastrar nome do aluno e 3 notas em cada matéria</p>
+
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <!--span>PHP</span-->
+                    </div>
+                    <a href="atividades/funcoes.php">Ver projeto</a>
+                </div>
         
 
         </section>
