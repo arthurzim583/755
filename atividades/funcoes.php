@@ -38,6 +38,15 @@
 
     //MÉDIA É 7
 
+    if ($media >= 7){
+        return "Aprovado";
+    
+       
+      
+       }else{
+        return "reprovado";
+       }
+
    }
 
 

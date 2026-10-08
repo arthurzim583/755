@@ -12,7 +12,8 @@
   }
 
 
-  
+    
+
 
 
 ?>
@@ -28,6 +29,20 @@
 
 </body>
   
+  <form method="post">
+<label>NOTA 1:</label>
+<input type="number" name="nota1">
+<label>Nota 2:</label>
+<input type="number" name="nota2">
+
+<button type="submit">Enviar</button>
+
+
+
+  </form>
+
+  <h2><?= $situacao ?></h2>
+
 
 </body>
 </html>
