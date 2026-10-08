@@ -138,7 +138,7 @@
             </div>
 
               <!--projeto3-->
-            <div class="card3">
+            <div class="card">
                     <div class="numero-projeto">
                         03
                     </div>
@@ -162,7 +162,7 @@
 
 
                 <!--projeto4-->
-                <div class="card4">
+                <div class="card">
                     <div class="numero-projeto">
                         04
                     </div>
@@ -181,8 +181,8 @@
                     <a href="cadastro_de_produtos-json.php">Ver projeto</a>
                 </div>
 
-                <!--projeto4-->
-                <div class="card3">
+                <!--projeto5-->
+                <div class="card">
                     <div class="numero-projeto">
                         03
                     </div>
