@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -112,7 +111,7 @@
                         <span>CSS</span>
                         <!--span>PHP</span-->
                     </div>
-                    <a href="idade-get.php">Ver projeto</a>
+                    <a href="atividades/idade-get.php">Ver projeto</a>
                 </div>
 
                 <!--projeto2 -->
@@ -126,84 +125,84 @@
                         Descrição do sistema:
                     </p>
 
-                     <p>Sistema para cadastrar idade e nome e afirmar se a pessoa é de menor ou de maior</p>
-                    
+                    <p>Sistema para cadastrar idade e nome e afirmar se a pessoa é de menor ou de maior</p>
+
 
                     <div class="tecnologias">
                         <span>HTML</span>
                         <span>CSS</span>
                         <!--span>PHP</span-->
                     </div>
-                    <a href="idade-get.php">Ver projeto</a>
+                    <a href="atividades/idade-get.php">Ver projeto</a>
                 </div>
             </div>
 
-              <!--projeto3-->
+            <!--projeto3-->
             <div class="card">
-                    <div class="numero-projeto">
-                        03
-                    </div>
-                    <h3>Sistema de cadastro de notas </h3>
-
-                    <p>
-                        Descrição do sistema:
-                
-                    </p>
-
-                    <p>sistema para cadastrar nome do aluno e 3 notas em cada matéria</p>
-
-                    <div class="tecnologias">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <!--span>PHP</span-->
-                    </div>
-                    <a href="dados-json.php">Ver projeto</a>
+                <div class="numero-projeto">
+                    03
                 </div>
+                <h3>Sistema de cadastro de notas </h3>
 
+                <p>
+                    Descrição do sistema:
 
+                </p>
 
-                <!--projeto4-->
-                <div class="card">
-                    <div class="numero-projeto">
-                        04
-                    </div>
-                    <h3>Sistema de cadastro de produtos</h3>
+                <p>sistema para cadastrar nome do aluno e 3 notas em cada matéria</p>
 
-                    <p>
-                        Descrição do sistema de cadastro
-
-                    </p>
-
-                    <div class="tecnologias">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <!--span>PHP</span-->
-                    </div>
-                    <a href="cadastro_de_produtos-json.php">Ver projeto</a>
+                <div class="tecnologias">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <!--span>PHP</span-->
                 </div>
+                <a href="atividades/dados-json.php">Ver projeto</a>
+            </div>
 
-                <!--projeto5-->
-                <div class="card">
-                    <div class="numero-projeto">
-                        05
-                    </div>
-                    <h3>Sistema de cadastro de notas </h3>
 
-                    <p>
-                        Descrição do sistema:
-                
-                    </p>
 
-                    <p>sistema para cadastrar nome do aluno e 3 notas em cada matéria</p>
-
-                    <div class="tecnologias">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <!--span>PHP</span-->
-                    </div>
-                    <a href="atividades/funcoes.php">Ver projeto</a>
+            <!--projeto4-->
+            <div class="card">
+                <div class="numero-projeto">
+                    04
                 </div>
-        
+                <h3>Sistema de cadastro de produtos</h3>
+
+                <p>
+                    Descrição do sistema de cadastro
+
+                </p>
+
+                <div class="tecnologias">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <!--span>PHP</span-->
+                </div>
+                <a href="atividades/cadastro_de_produtos-json.php">Ver projeto</a>
+            </div>
+
+            <!--projeto5-->
+            <div class="card">
+                <div class="numero-projeto">
+                    05
+                </div>
+                <h3>Sistema de cadastro de notas </h3>
+
+                <p>
+                    Descrição do sistema:
+
+                </p>
+
+                <p>sistema para cadastrar nome do aluno e 3 notas em cada matéria</p>
+
+                <div class="tecnologias">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <!--span>PHP</span-->
+                </div>
+                <a href="atividades/funcoes.php">Ver projeto</a>
+            </div>
+
 
         </section>
 
