@@ -36,11 +36,7 @@
 
         $stmt = $pdo->prepare($sql);
 
-        $stmt->execute([
-            "nome" => $nome,
-            "preco" => $preco,
-            "quantidade" => $id,
-            "id" => $id]);
+        $stmt->execute();
     }
 
                         // 4. EXCLUIR PRODUTO
@@ -51,8 +47,7 @@
 
         $stmt = $pdo->prepare($sql);
 
-        $stmt->execute([
-            "id" => $id]);
+        $stmt->execute();
     }
 
                         // 5. BUSCAR PRODUTO PARA EDIÇÃO
@@ -65,7 +60,7 @@
 
         $stmt = $pdo->prepare($sql);
 
-        $stmt->execute(["id" => "$id"]);
+        $stmt->execute();
 
         $produtoEditar = $stmt->fetch(PDO::FETCH_ASSOC);
     }
@@ -120,6 +115,7 @@
     <hr>
     <h2>Produtos Cadastrados</h2>
     <table>
+
                         <!-- TR | Table Row | Cria uma linha dentro de uma tabela -->
         <tr>
                         <!-- TH | Table Header | Cria uma célula de cabeçalho na tabela -->
@@ -131,16 +127,19 @@
         </tr>
         <?php foreach ($produtos as $produto) {?>
             <tr>
+
                         <!-- TD | Table Data | Cria uma célula de dados na tabela -->
                 <td> <?= $produto["id"] ?> </td>
                 <td> <?= htmlspecialchars($produto["nome"]) ?> </td>
                 <td> R$ <?= number_format($produto["preco"], 2, ",", ".") ?></td>
                 <td> <?= $produto["quantidade"] ?> </td>
                 <td>
+
                         <!-- EDITAR -->
                     <a href="index.php?editar=<?= $produto['id'] ?>">Editar</a>
+
                         <!-- EXCLUIR -->
-                    <form method="POST" action="index.php" style="display:inline";>
+                    <form method="POST" action="db1.php" style="display:inline";>
                         <input type="hidden" name="id" value="<?= $produto['id'] ?>">
                         <button type="submit" name="excluir" onclick="return confirm ('Deseja excluir esse produto')">Excluir</button>
                     </form>
