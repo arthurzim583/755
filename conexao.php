@@ -1,7 +1,5 @@
 <?php
 
-require_once "../conexao.php";
-
 // PHP: linguagem que executa as regras do sistema
 //MySql: SGB
 

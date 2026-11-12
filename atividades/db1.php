@@ -1,10 +1,10 @@
 <?php
-    require_once "conexao.php";
+    require_once "../conexao.php";
                         // 1. CRIAR TABELA
     $sql = "CREATE TABLE IF NOT EXISTS produtos (
         id INT AUTO_INCREMENT PRIMARY KEY,
         nome VARCHAR(100) NOT NULL,
-        preco VARCHAR(10, 2) NOT NULL,
+        preco DECIMAL (10,2) NOT NULL,
         quantidade INT NOT NULL)";
 
     $pdo->exec($sql);
@@ -12,10 +12,10 @@
                         // 2. CADASTRAR PRODUTO
     if (isset($_POST["cadastrar"])) {
         $nome = $_POST["nome"];
-        $preco = $_POST["Preco"];
+        $preco = $_POST["preco"];
         $quantidade = $_POST ["quantidade"];
 
-        $sql = "INSERT INTO produtos (nome, preco, qauntidade) VALUES ('$nome', $preco, $quantidade)";
+        $sql = "INSERT INTO produtos (nome, preco, quntidade) VALUES ('$nome', $preco, $quantidade)";
 
         $stmt = $pdo->prepare($sql);
 
