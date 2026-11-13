@@ -135,12 +135,32 @@
                     </div>
                     <a href="atividades/idade-get.php">Ver projeto</a>
                 </div>
+           
+                 <div class="card">
+                    <div class="numero-projeto">
+                        03
+                    </div>
+                    <h3>Digitar seu nome e idade</h3>
+
+                    <p>
+                        Descrição do sistema:
+
+                    </p>
+
+                    <div class="tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <!--span>PHP</span-->
+                    </div>
+                    <a href="atividades/idade-get.php">Ver projeto</a>
+                </div>
+           
             </div>
 
             <!--projeto3-->
             <div class="card">
                 <div class="numero-projeto">
-                    03
+                    04
                 </div>
                 <h3>Sistema de cadastro de notas </h3>
 
@@ -164,7 +184,7 @@
             <!--projeto4-->
             <div class="card">
                 <div class="numero-projeto">
-                    04
+                    05
                 </div>
                 <h3>Sistema de cadastro de produtos</h3>
 
@@ -184,7 +204,7 @@
             <!--projeto5-->
             <div class="card">
                 <div class="numero-projeto">
-                    05
+                    06
                 </div>
                 <h3>Sistema de cadastro de notas </h3>
 
