@@ -223,6 +223,23 @@
             </div>
 
 
+            <div class="card">
+                <div class="numero-projeto">
+                    07
+                </div>
+                <h3>Sistema de controle de vendas </h3>
+
+
+                <div class="tecnologias">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <!--span>PHP</span-->
+                </div>
+                <a href="atividades/funcoes.php">Ver projeto</a>
+            </div>
+
+
+
         </section>
 
         <!--Seção Contato-->
