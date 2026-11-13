@@ -152,7 +152,7 @@
                         <span>CSS</span>
                         <!--span>PHP</span-->
                     </div>
-                    <a href="atividades/idade-get.php">Ver projeto</a>
+                    <a href="atividades/db1.php">Ver projeto</a>
                 </div>
            
             </div>
