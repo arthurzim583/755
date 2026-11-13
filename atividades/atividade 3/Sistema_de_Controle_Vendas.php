@@ -11,7 +11,12 @@ $sql = "CREATE TABLE IF NOT EXISTS produtos(
         quantidade INT NOT NULL,
         estoque_minimo: INT, NOT NULL)";
 
-$sql = "CREATE TABLE IF NOT EXISTS vendas"
+$sql = "CREATE TABLE IF NOT EXISTS vendas(
+        id: INT, PRIMARY KEY, AUTO_INCREMENT,
+        produto_id: INT, FOREIGN KEY,
+        quantidade: INT, NOT NULL,
+        valor_total: DECIMAL(10,2), NOT NULL,
+        data_venda: DATETIME, NOT NULL)";
 
 
 
