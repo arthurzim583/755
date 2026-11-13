@@ -18,6 +18,8 @@ $sql = "CREATE TABLE IF NOT EXISTS vendas(
         valor_total: DECIMAL(10,2), NOT NULL,
         data_venda: DATETIME, NOT NULL)";
 
+        
+
 
 
 
