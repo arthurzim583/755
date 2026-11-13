@@ -140,11 +140,10 @@
                     <div class="numero-projeto">
                         03
                     </div>
-                    <h3>Digitar seu nome e idade</h3>
+                    <h3>Sistema de cadastro de produtos</h3>
 
                     <p>
-                        Descrição do sistema:
-
+                        Banco de dados
                     </p>
 
                     <div class="tecnologias">
