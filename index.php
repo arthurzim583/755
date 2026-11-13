@@ -235,7 +235,7 @@
                     <span>CSS</span>
                     <!--span>PHP</span-->
                 </div>
-                <a href="atividades/funcoes.php">Ver projeto</a>
+                <a href="atividade 3/Sistema_de_Controle_Vendas.php">Ver projeto</a>
             </div>
 
 
