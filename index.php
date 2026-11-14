@@ -156,7 +156,6 @@
            
             </div>
 
-            <!--projeto3-->
             <div class="card">
                 <div class="numero-projeto">
                     04
@@ -180,7 +179,6 @@
 
 
 
-            <!--projeto4-->
             <div class="card">
                 <div class="numero-projeto">
                     05
@@ -200,32 +198,11 @@
                 <a href="atividades/cadastro_de_produtos-json.php">Ver projeto</a>
             </div>
 
-            <!--projeto5-->
+
+
             <div class="card">
                 <div class="numero-projeto">
                     06
-                </div>
-                <h3>Sistema de cadastro de notas </h3>
-
-                <p>
-                    Descrição do sistema:
-
-                </p>
-
-                <p>sistema para cadastrar nome do aluno e 3 notas em cada matéria</p>
-
-                <div class="tecnologias">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <!--span>PHP</span-->
-                </div>
-                <a href="atividades/funcoes.php">Ver projeto</a>
-            </div>
-
-
-            <div class="card">
-                <div class="numero-projeto">
-                    07
                 </div>
                 <h3>Sistema de controle de vendas </h3>
 
