@@ -157,31 +157,9 @@
             </div>
 
 
-
             <div class="card">
                 <div class="numero-projeto">
                     04
-                </div>
-                <h3>Sistema de cadastro de produtos</h3>
-
-                <p>
-                    Descrição do sistema de cadastro
-
-                </p>
-
-                <div class="tecnologias">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <!--span>PHP</span-->
-                </div>
-                <a href="atividades/cadastro_de_produtos-json.php">Ver projeto</a>
-            </div>
-
-
-
-            <div class="card">
-                <div class="numero-projeto">
-                    05
                 </div>
                 <h3>Sistema de controle de vendas </h3>
 
