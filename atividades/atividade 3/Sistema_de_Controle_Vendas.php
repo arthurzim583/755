@@ -16,7 +16,7 @@ $sql_produtos = "CREATE TABLE IF NOT EXISTS produtos (
 $sql_vendas = "CREATE TABLE IF NOT EXISTS vendas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     produto_id INT NOT NULL,
-    quantidade INT NOT NULL,
+    quantidade INT NOT NULL, 
     valor_total DECIMAL(10,2) NOT NULL,
     data_venda DATETIME NOT NULL,
     FOREIGN KEY (produto_id) REFERENCES produtos(id))";
