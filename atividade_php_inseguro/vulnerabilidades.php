@@ -37,22 +37,94 @@ if ($acao === 'sair') {
     exit;
 }
 if ($acao === 'cadastrar') {
-    $nome = $_POST['nome'] ?? '';
-    $descricao = $_POST['descricao'] ?? '';
-    $preco = $_POST['preco'] ?? '';
-    $estoque = $_POST['estoque'] ?? '';
-    $categoria = $_POST['categoria'] ?? '';
+
+
+    $nome = $_GET['nome'];
+    $sql = "SELECT * FROM produtos
+    WHERE nome = :nome"; 
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['nome' => $nome]);
+
+
+$descricao = $_GET['descricao'];
+    $sql = "SELECT * FROM produtos
+    WHERE descricao = :descricao";
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['descricao' => $descricao]);
+    
+    
+ $preco = $_GET['preco'];
+    $sql = "SELECT * FROM produtos
+    WHERE preco = :preco";
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['descricao' => $descricao]);
+    
+    
+$estoque = $_GET['estoque'];
+    $sql = "SELECT * FROM produtos
+    WHERE estoque = :estoque";
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['estoque' => $estoque]);
+    
+$categoria = $_GET['categoria'];
+    $sql = "SELECT * FROM produtos
+    WHERE categoria = :categoria";
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['categoria' => $categoria]);
+
     $sql = "INSERT INTO produtos (nome, descricao, preco, estoque, categoria) VALUES ('$nome', '$descricao', '$preco', '$estoque', '$categoria')";
     $pdo->exec($sql);
     $mensagem = "Produto $nome cadastrado!";
 }
 if ($acao === 'atualizar') {
-    $id = $_POST['id'] ?? '';
-    $nome = $_POST['nome'] ?? '';
-    $descricao = $_POST['descricao'] ?? '';
-    $preco = $_POST['preco'] ?? '';
-    $estoque = $_POST['estoque'] ?? '';
-    $categoria = $_POST['categoria'] ?? '';
+    $id = $_GET['id'];
+    $sql = "SELECT * FROM produtos
+    WHERE id = :id"; 
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['id' => $id]); 
+
+
+    $nome = $_GET['nome'];
+    $sql = "SELECT * FROM produtos
+    WHERE nome = :nome"; 
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['nome' => $nome]);
+
+    
+    $descricao = $_GET['descricao'];
+    $sql = "SELECT * FROM produtos
+    WHERE descricao = :descricao";
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['descricao' => $descricao]);
+
+
+
+
+    $preco = $_GET['preco'];
+    $sql = "SELECT * FROM produtos
+    WHERE preco = :preco";
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['descricao' => $descricao]);
+
+
+
+    $estoque = $_GET['estoque'];
+    $sql = "SELECT * FROM produtos
+    WHERE estoque = :estoque";
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['estoque' => $estoque]);
+
+
+
+
+    $categoria = $_GET['categoria'];
+    $sql = "SELECT * FROM produtos
+    WHERE categoria = :categoria";
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['categoria' => $categoria]);
+
+
+
     $sql = "UPDATE produtos SET nome='$nome', descricao='$descricao', preco='$preco', estoque='$estoque', categoria='$categoria' WHERE id=$id";
     $pdo->exec($sql);
     $mensagem = 'Produto atualizado.';
