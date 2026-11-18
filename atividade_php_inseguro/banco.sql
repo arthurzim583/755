@@ -1,12 +1,19 @@
-CREATE TABLE IF NOT EXISTS usuarios (
+    /*A estrutura das tabelas e dos INSERTs estava toda mal organizada e gerando erros,
+    não era possível cadastrar as tabelas no estado em que estavam, assim como no CSS, estavam
+    todos juntos os elementos, códigos e informações, muitos juntos em uma única linha*/
+    
+    
+    
+    
+    CREATE TABLE IF NOT EXISTS usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY, 
-    nome VARCHAR(120),
-    email VARCHAR(150), 
-    senha VARCHAR(150),
+    nome VARCHAR(120) NOT NULL,
+    email VARCHAR(150) NOT NULL, 
+    senha VARCHAR(150) NOT NULL,
     perfil VARCHAR(30)
     );
 
-CREATE TABLE IF NOT EXISTS produtos (
+    CREATE TABLE IF NOT EXISTS produtos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(150) NOT NULL, 
     descricao TEXT, 
@@ -16,8 +23,5 @@ CREATE TABLE IF NOT EXISTS produtos (
     criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
 
-INSERT INTO usuarios(nome,email,senha,perfil) 
-VALUES ('Administrador','admin@exemplo.local','admin123','admin'),('Operador','operador@exemplo.local','123456','operador');
-
-INSERT INTO produtos(nome,descricao,preco,estoque,categoria)
- VALUES ('Mouse USB','Mouse para escritório',35.90,12,'Periféricos'),('Teclado','Teclado básico',59.90,7,'Periféricos'),('Monitor','Monitor de laboratório',699.00,3,'Monitores');
+INSERT INTO usuarios(nome,email,senha,perfil) VALUES ('Administrador','admin@exemplo.local','admin123','admin'),('Operador','operador@exemplo.local','123456','operador');
+INSERT INTO produtos(nome,descricao,preco,estoque,categoria) VALUES ('Mouse USB','Mouse para escritório',35.90,12,'Periféricos'),('Teclado','Teclado básico',59.90,7,'Periféricos'),('Monitor','Monitor de laboratório',699.00,3,'Monitores');
