@@ -1,0 +1,31 @@
+- Banco.sql:
+
+A estrutura das tabelas e dos INSERTs estava toda mal organizada e gerando erros,
+não era possível cadastrar as tabelas no estado em que estavam, assim como no CSS, estavam
+todos juntos os elementos, códigos e informações, muitos juntos em uma única linha
+
+- style.css:
+
+CSS estava mal organizado e tudo estava junto, 
+vários elementos na mesma linha formando um código com linhas gigantescas
+e menor número de linhas, e também características e descrições de elementos muito 
+próximas umas das outras, dificultando a legibiliade. Também todas as últimas características dos
+elementos por exemplo:  font-size: 12px;  faltavam ponto e vírgula e estavam assim: font-size: 12px
+
+
+- vulnerabilidades.php:
+
+
+o código estava todo mal organizado assim como o sql e o css, muitos códigos juntos em uma única linha
+dificultando a legibilidade.
+
+E não possuía placeholder para manter o código mais seguro, e foram adicionados:
+
+    $sql = "SELECT * FROM produtos
+    WHERE id = :id"; 
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(['id' => $id]); 
+
+Para que o valor fosse enviado separadamene por meio do execute()
+
+
