@@ -1,6 +1,9 @@
 <?php
-// Objetivo: localizar, explicar e corrigir vulnerabilidades.
-ini_set('display_errors', 1);
+// Display_errors, 0 = Não exibir erro interno para qualquer usuário
+ini_set('display_errors', 0);
+//Log_errors, '1' = Registrar os logs num arquivo interno o qual o usuário padrão não possui acesso
+ini_set('log_errors', '1');
+//Define quais tipos de erro o php deve registrar, E_ALL = TODOS os erros
 error_reporting(E_ALL);
 session_start();
 $host = '127.0.0.1';
