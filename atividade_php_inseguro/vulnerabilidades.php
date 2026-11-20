@@ -107,7 +107,21 @@ if ($acao === 'excluir') {
     $pdo->exec("DELETE FROM produtos WHERE id=$id");
     $mensagem = 'Produto excluído.';
 }
-$busca = $_GET['busca'] ?? '';
+
+$sqlLista = "SELECT *
+             FROM produtos
+            WHERE (
+            nome LIKE :buscaNome
+            OR descricao LIKE :buscaDescricao
+            )";
+
+$parametros = [
+
+         'buscaNome' => "%$busca%",
+         'buscaDescricao' => "%$busca%"
+         
+];
+
 $categoriaFiltro = $_GET['categoria'] ?? '';
 $ordem = $_GET['ordem'] ?? 'id';
 $sqlLista = "SELECT * FROM produtos WHERE (nome LIKE ':busca' OR descricao LIKE ':busca')";
@@ -118,7 +132,27 @@ $editar = null;
 if (isset($_GET['editar'])) {
     $editar = $pdo->query('SELECT * FROM produtos WHERE id=' . $_GET['editar'])->fetch(PDO::FETCH_ASSOC);
 }
-$total = $pdo->query('SELECT COUNT(*) FROM produtos')->fetchColumn();
+
+//ENT_QUOTES = é uma 'constante' que indica que tanto as aspas simples quanto as aspas duplas devem ser convertidas em entidades HTML
+
+//UTF-8 = permite trabalhar com caracteres especiais, como acentuação, simbolos e emojis
+
+
+
+$total = $pdo->query('SELECT COUNT(*) FROM produtos'
+)->fetchColumn();
+
+function escapar($valor) {
+
+   return htmlspecialchars($valor, ENT_QUOTES, 'UTF-8');
+}
+
+
+
+
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -157,7 +191,7 @@ $total = $pdo->query('SELECT COUNT(*) FROM produtos')->fetchColumn();
 </form></section>
 <section class="painel"><h2>Produtos cadastrados (<?= $total ?>)</h2>
 <form method="get" class="filtros">
-<input name="busca" placeholder="Buscar nome ou descrição" value="<?= $busca ?>">
+<input name="busca" placeholder="Buscar nome ou descrição" value="<?= busca ?>">
 <input name="categoria" placeholder="Filtrar categoria" value="<?= $categoriaFiltro ?>">
 <select name="ordem"><option value="id">Código</option><option value="nome">Nome</option><option value="preco">Preço</option><option value="<?= $ordem ?>" selected>Ordenação atual</option></select>
 <button>Pesquisar</button></form>
